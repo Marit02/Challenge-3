@@ -1,0 +1,94 @@
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 33vw;
+    margin: 50px 33vw;
+    padding-top: 50px;  
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around
+}
+
+.data {
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 200px;
+    width: 80vw;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#weather {
+    height: 180px;
+    width: 35vw;
+    margin: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content:space-between;
+    background-color: rgba(113, 105, 189, 0.486);
+    border-radius: 25px;
+    float: right;
+}
+
+#landing {
+    display: flex;
+    height: 180px;
+    width: 35vw;
+    margin: 10px;
+    font-size:2em;
+    font-weight: 400;
+    justify-content: center;
+    background-color: rgba(113, 105, 189, 0.486);
+    border-radius: 25px;   
+}
+
+#location{
+    font-size: 1.5em;
+}
+
+#space {
+    background-color: transparent;
+}
+
+#bg {
+    height: 100%;
+    width: 100%;
+  }
+
+@media screen and (min-width: 800px) {
+    #bg {
+        height: 30vh;
+        width: 40%;
+      }
+}
+
+@media screen and (min-width: 800px) {
+    span {
+        padding-top: 70px;
+    }
+}
+
+@media print {
+    div#app{
+        font-family: serif;
+    }
+}
+
+

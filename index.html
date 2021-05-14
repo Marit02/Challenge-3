@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Marit">
+    <meta name="description" content="Earth Landing Calculator">
+    <meta name="keywords" content="Mars, Time, Clock, Elon Musk, Earth Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Calculator</title>
+     <!-- Scripts -->
+    <script src="code.js" defer></script> <!-- Defer zorgt er voor dat het als laatste laad -->
+
+</head>
+
+<body>
+    <div id="background">
+        <div>
+            <img class="logo" src="images/logo.png" alt="Logo"> 
+        </div>
+
+        <div class="container">
+            <div class="data">
+                <div id="weather">
+                    <div id="location"></div>
+                    <div id="description"></div>
+                    <h2 id="temp"></h2>
+                    <h3 id="wind"></h3>
+                </div>
+                <div id="landing">
+                    <span id="landText"></span>
+                </div>
+            </div>
+
+            <div id="space" class="data"> <a
+                    href="https://api.nasa.gov/planetary/earth/imagery?lon=-80.831495&lat=28.408313&dim=0.06&api_key=fEy5DSsNxgNeaaTA92BXtRf6xbB5mGuAI9qhRjDP"
+                    target="_blank"><img id="bg" src="" alt=""></a></div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
